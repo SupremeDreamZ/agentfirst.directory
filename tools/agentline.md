@@ -2,9 +2,6 @@
 slug: "agentline"
 name: "AgentLine"
 description: "Gives AI agents persistent phone numbers for voice calls, inbound SMS, transcripts, and real-time event delivery."
-agentSummary: "AgentLine gives AI agents persistent US phone numbers for inbound and outbound voice calls, inbound SMS, transcripts, and real-time events. Builders can use its hosted API or deploy the MIT-licensed source, then connect agents through REST, MCP, a skill, Python SDK, signed webhooks, or a WebSocket relay. The hosted service is US-only, SMS is inbound-only, and Node users currently use REST."
-seoTitle: "AgentLine: Phone Numbers and Voice Calls for AI Agents"
-seoDescription: "Explore AgentLine for persistent US phone numbers, inbound and outbound calls, inbound SMS, transcripts, MCP, REST, webhooks, and self-hosting."
 category: "agent-identity-communication"
 tags:
   - "phone"
@@ -58,8 +55,6 @@ evidenceSources:
     claim: "The official repository provides the MIT-licensed AgentLine API source and documents hosted and self-hosted operation."
     accessedAt: "2026-09-26"
     sourceType: "official-repository"
-reviewedBy: "foo-bender"
-reviewedAt: "2026-09-28"
 classificationRationaleMd: "AgentLine is designed around an AI agent as the owner and operator of a persistent phone identity, with agent-oriented MCP, skill, relay, REST, and Python SDK interfaces as core product surfaces."
 bestForMd: "Agents that need a programmable phone number for inbound and outbound voice, inbound SMS, saved transcripts, and event-driven follow-up through REST, MCP, a skill, the Python SDK, webhooks, or a persistent relay."
 limitationsMd: "Hosted phone numbers are currently US-only and cost $2/month each. SMS is inbound-only, with outbound SMS disabled. The Node SDK is not yet on npm, so Node.js users should currently use REST."
