@@ -18,6 +18,8 @@ pricing: "paid"
 classification: "agent-native"
 entityType: "web-api"
 developerName: "SupremeDreamZ"
+reviewedBy: "foo-bender"
+reviewedAt: "2026-10-03"
 docsUrl: "https://compounder-market-api.vercel.app/api/bounty-score"
 interfaces:
 - "REST API"
