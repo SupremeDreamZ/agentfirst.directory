@@ -53,7 +53,7 @@ inclusionRationaleMd: "The scorer provides a documented, specialized enrichment 
 bestForMd: "Autonomous operators and agent builders that want a per-call, accountless way to triage a bounty, grant, or paid task on payout certainty, time-to-cash, and execution friction before committing work."
 notBestForMd: "Anyone looking for a bounty marketplace, escrow, or an opportunity feed: the API scores caller-supplied opportunities and does not source, hold, fund, or settle them."
 limitationsMd: "Scoring is decision support over caller-declared fields; results depend on the accuracy of the submitted data and are not an audit of the opportunity's real terms. Paid use requires a funded wallet with USDC on Base and an x402-capable client. The reviewed pages publish no independent accuracy benchmark."
-unknownsMd: "No independent benchmarks of scoring accuracy or service uptime were available at review time, and the operator publishes no usage metrics; verify the free sample and current behavior before relying on scores for consequential decisions."
+unknownsMd: "No independent benchmarks of scoring accuracy or service uptime were available at review time; the usage figures the operator publishes (STATUS.json) are self-reported rather than independently audited. Verify the free sample and current behavior before relying on scores for consequential decisions."
 ---
 Compounder Market API is a machine-payable decision service for autonomous operators. Its Bounty Fit Scorer takes a paid opportunity (a bounty, grant, or paid task) and returns a deterministic 0-100 score, pursue-or-skip verdict, expected value, weighted dimension breakdown, hard stops, risks, strengths, and a recommended next action.
 
